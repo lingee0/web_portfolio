@@ -1,5 +1,5 @@
 import styles from './style';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import {
   AboutMe,
@@ -25,7 +25,6 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Routes>
           <Route path="/" element={<Hero />} />
-          <Route path="/home" element={<Hero />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/experiences" element={<Experiences />} />
           <Route path="/aboutMe" element={<AboutMe />} />

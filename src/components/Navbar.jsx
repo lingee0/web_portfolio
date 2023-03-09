@@ -6,6 +6,8 @@ import close from '../assets/close.svg';
 
 import { navLinks } from '../constants';
 
+import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
@@ -16,11 +18,16 @@ const Navbar = () => {
         <li
           className={`font-poppins font-normal cursor-pointer text-[16px] text-white mr-10`}
         >
-          <a href="https://drive.google.com/uc?export=download&id=16CsD6cRwAg6a261q9t1XQYn_DmUUE8KM">
+          <Link to="https://drive.google.com/uc?export=download&id=16CsD6cRwAg6a261q9t1XQYn_DmUUE8KM">
             <button className="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
               Resume
             </button>
-          </a>
+          </Link>
+        </li>
+        <li
+          className={`font-poppins font-normal cursor-pointer text-[16px] text-white mr-10`}
+        >
+          <Link to="/">Home</Link>
         </li>
         {navLinks.map((nav, index) => (
           <li
@@ -29,7 +36,7 @@ const Navbar = () => {
               index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
             } text-white`}
           >
-            <a href={`${nav.id}`}>{nav.title}</a>
+            <CustomLink to={`${nav.id}`}>{nav.title}</CustomLink>
           </li>
         ))}
       </ul>
@@ -51,11 +58,16 @@ const Navbar = () => {
             <li
               className={`font-poppins font-normal cursor-pointer text-[16px] text-white mb-4`}
             >
-              <a href="https://drive.google.com/uc?export=download&id=16CsD6cRwAg6a261q9t1XQYn_DmUUE8KM">
+              <Link to="https://drive.google.com/uc?export=download&id=16CsD6cRwAg6a261q9t1XQYn_DmUUE8KM">
                 <button className="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                   Resume
                 </button>
-              </a>
+              </Link>
+            </li>
+            <li
+              className={`font-poppins font-normal cursor-pointer text-[16px] text-white mb-4`}
+            >
+              <Link to="/">Home</Link>
             </li>
             {navLinks.map((nav, index) => (
               <li
@@ -64,7 +76,7 @@ const Navbar = () => {
                   index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
                 } text-white `}
               >
-                <a href={`${nav.id}`}>{nav.title}</a>
+                <CustomLink to={`${nav.id}`}>{nav.title}</CustomLink>
               </li>
             ))}
           </ul>
@@ -75,3 +87,16 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to);
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+
+  return (
+    <li className={isActive ? 'active' : ''}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  );
+}
