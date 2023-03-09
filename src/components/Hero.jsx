@@ -3,6 +3,7 @@ import { useEffect, useRef } from 'react';
 import styles from '../style';
 import textBuble from '../assets/textbuble.png';
 import meme1 from '../assets/meme1.png';
+import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
 const Hero = () => {
   const el = useRef(null);
@@ -51,7 +52,16 @@ const Hero = () => {
             get to know more about me <br />
           </p>
         </div>
-        <a href={`${'contactMe'}`}>
+        <Link
+          to={`${'contactMe'}`}
+          onClick={() => {
+            window.scroll({
+              top: 0,
+              left: 0,
+              behavior: 'smooth',
+            });
+          }}
+        >
           <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient cursor-pointer rounded-[10px] mb-2">
             <img
               src={textBuble}
@@ -62,7 +72,7 @@ const Hero = () => {
               Do not hesitate to contact me
             </span>
           </div>
-        </a>
+        </Link>
       </div>
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
@@ -78,3 +88,16 @@ const Hero = () => {
 };
 
 export default Hero;
+
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to);
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+
+  return (
+    <li className={isActive ? 'active' : ''}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  );
+}
