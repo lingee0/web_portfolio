@@ -22,6 +22,7 @@ const ContactMe = () => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
   return (
     <section id="contactForm">

@@ -25,16 +25,21 @@ const Navbar = () => {
           </Link>
         </li>
         <li
-          className={`font-poppins font-normal cursor-pointer text-[16px] text-white mr-10`}
+          className={`font-poppins font-normal cursor-pointer text-[16px] mr-10`}
         >
-          <Link to="/">Home</Link>
+          <Link
+            to="/"
+            className="text-white hover:text-secondary active:text-blue-500"
+          >
+            Home
+          </Link>
         </li>
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
               index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
-            } text-white`}
+            } text-white hover:text-secondary active:text-blue-500`}
           >
             <CustomLink to={`${nav.id}`}>{nav.title}</CustomLink>
           </li>
@@ -65,7 +70,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li
-              className={`font-poppins font-normal cursor-pointer text-[16px] text-white mb-4`}
+              className={`font-poppins font-normal cursor-pointer text-[16px] text-white active:text-blue-500 mb-4`}
             >
               <Link to="/">Home</Link>
             </li>
@@ -74,7 +79,7 @@ const Navbar = () => {
                 key={nav.id}
                 className={`font-poppins font-normal cursor-pointer text-[16px] ${
                   index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
-                } text-white `}
+                } text-white active:text-blue-500`}
               >
                 <CustomLink to={`${nav.id}`}>{nav.title}</CustomLink>
               </li>
