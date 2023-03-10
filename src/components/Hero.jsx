@@ -3,6 +3,7 @@ import { useEffect, useRef } from 'react';
 import styles from '../style';
 import textBuble from '../assets/textbuble.png';
 import meme1 from '../assets/meme1.png';
+import meme3 from '../assets/meme3.jpg';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
 const Hero = () => {
@@ -78,7 +79,7 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
-          src={meme1}
+          src={meme3}
           alt="meme"
           className="ss:w-[80%] w-[60%] mr -10 relative z-[5]"
         />
