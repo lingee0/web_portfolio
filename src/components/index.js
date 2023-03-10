@@ -7,6 +7,7 @@ import Hero from './Hero';
 import Navbar from './Navbar';
 import Projects from './Projects';
 import Stats from './Stats';
+import YoutubeEmbed from './YoutubeEmbed';
 
 export {
   AboutMe,
@@ -18,4 +19,5 @@ export {
   Navbar,
   Projects,
   Stats,
+  YoutubeEmbed,
 };

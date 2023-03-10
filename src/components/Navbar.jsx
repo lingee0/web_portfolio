@@ -18,16 +18,7 @@ const Navbar = () => {
         <li
           className={`font-poppins font-normal cursor-pointer text-[16px] text-white mr-10`}
         >
-          <Link
-            to="https://drive.google.com/uc?export=download&id=16CsD6cRwAg6a261q9t1XQYn_DmUUE8KM"
-            onClick={() => {
-              window.scroll({
-                top: 0,
-                left: 0,
-                behavior: 'smooth',
-              });
-            }}
-          >
+          <Link to="https://drive.google.com/uc?export=download&id=16CsD6cRwAg6a261q9t1XQYn_DmUUE8KM">
             <button className="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
               Resume
             </button>
@@ -36,7 +27,7 @@ const Navbar = () => {
         <li
           className={`font-poppins font-normal cursor-pointer text-[16px] mr-10`}
         >
-          <Link
+          <CustomLink
             to="/"
             onClick={() => {
               window.scroll({
@@ -48,7 +39,7 @@ const Navbar = () => {
             className="text-white hover:text-secondary active:text-blue-500"
           >
             Home
-          </Link>
+          </CustomLink>
         </li>
         {navLinks.map((nav, index) => (
           <li
@@ -57,7 +48,7 @@ const Navbar = () => {
               index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
             } text-white hover:text-secondary active:text-blue-500`}
           >
-            <Link
+            <CustomLink
               to={`${nav.id}`}
               onClick={() => {
                 window.scroll({
@@ -68,7 +59,7 @@ const Navbar = () => {
               }}
             >
               {nav.title}
-            </Link>
+            </CustomLink>
           </li>
         ))}
       </ul>
@@ -90,16 +81,7 @@ const Navbar = () => {
             <li
               className={`font-poppins font-normal cursor-pointer text-[16px] text-white mb-4`}
             >
-              <Link
-                to="https://drive.google.com/uc?export=download&id=16CsD6cRwAg6a261q9t1XQYn_DmUUE8KM"
-                onClick={() => {
-                  window.scroll({
-                    top: 0,
-                    left: 0,
-                    behavior: 'smooth',
-                  });
-                }}
-              >
+              <Link to="https://drive.google.com/uc?export=download&id=16CsD6cRwAg6a261q9t1XQYn_DmUUE8KM">
                 <button className="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                   Resume
                 </button>
@@ -108,7 +90,7 @@ const Navbar = () => {
             <li
               className={`font-poppins font-normal cursor-pointer text-[16px] text-white active:text-blue-500 mb-4`}
             >
-              <Link
+              <CustomLink
                 to="/"
                 onClick={() => {
                   window.scroll({
@@ -119,7 +101,7 @@ const Navbar = () => {
                 }}
               >
                 Home
-              </Link>
+              </CustomLink>
             </li>
             {navLinks.map((nav, index) => (
               <li
@@ -128,7 +110,7 @@ const Navbar = () => {
                   index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
                 } text-white active:text-blue-500`}
               >
-                <Link
+                <CustomLink
                   to={`${nav.id}`}
                   onClick={() => {
                     window.scroll({
@@ -139,7 +121,7 @@ const Navbar = () => {
                   }}
                 >
                   {nav.title}
-                </Link>
+                </CustomLink>
               </li>
             ))}
           </ul>

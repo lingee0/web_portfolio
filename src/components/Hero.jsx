@@ -53,7 +53,7 @@ const Hero = () => {
             get to know more about me <br />
           </p>
         </div>
-        <Link
+        <CustomLink
           to={`${'contactMe'}`}
           onClick={() => {
             window.scroll({
@@ -73,7 +73,7 @@ const Hero = () => {
               Do not hesitate to contact me
             </span>
           </div>
-        </Link>
+        </CustomLink>
       </div>
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
