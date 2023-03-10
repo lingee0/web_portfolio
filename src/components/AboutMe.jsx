@@ -5,7 +5,9 @@ import { YoutubeEmbed } from '../components';
 
 const AboutMe = () => (
   <section id="aboutMe" className="mt-20">
-    <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+    <div
+      className={`flex-1 flex md:flex-row flex-col ${styles.flexCenter} md:my-0 my-10 relative`}
+    >
       <div className="mr-10">
         <img
           src={profile}
@@ -34,7 +36,9 @@ const AboutMe = () => (
         </div>
       </div>
     </div>
-    <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+    <div
+      className={`flex-1 flex md:flex-row flex-col ${styles.flexCenter} md:my-0 my-10 relative`}
+    >
       <div className="mt-10 relative mr-10">
         <YoutubeEmbed videoId="jnOKC0YTpXQ" />
       </div>
@@ -49,7 +53,9 @@ const AboutMe = () => (
         </p>
       </div>
     </div>
-    <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+    <div
+      className={`flex-1 flex md:flex-row flex-col ${styles.flexCenter} md:my-0 my-10 relative`}
+    >
       <div className="mt-10 relative mr-10">
         <YoutubeEmbed videoId="pj9x-IuT8mk" />
       </div>

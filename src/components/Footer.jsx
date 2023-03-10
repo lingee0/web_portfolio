@@ -12,7 +12,7 @@ const Footer = () => (
           className="ss:w-[200px] w-[140px] object-contain"
         />
         <p
-          className={`${styles.paragraph} mt-4 max-w-[250px] ss:text-[14px] text-[10px]`}
+          className={`${styles.paragraph} mt-4 max-w-[260px] ss:text-[14px] text-[10px]`}
         >
           Designed and Developed by <br /> Linggar Nareswara Andaru
         </p>
