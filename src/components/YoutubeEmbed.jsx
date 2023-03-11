@@ -11,7 +11,9 @@ class YoutubeEmbed extends Component {
       width: '500',
       playerVars: {
         // https://developers.google.com/youtube/player_parameters
+        host: 'https://www.youtube.com',
         autoplay: 0,
+        origin: window.location.origin,
       },
     };
     const { videoId } = this.props;
