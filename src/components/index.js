@@ -8,6 +8,7 @@ import Navbar from './Navbar';
 import Projects from './Projects';
 import Stats from './Stats';
 import YoutubeEmbed from './YoutubeEmbed';
+import SkillsTab from './SkillsTab';
 
 export {
   AboutMe,
@@ -20,4 +21,5 @@ export {
   Projects,
   Stats,
   YoutubeEmbed,
+  SkillsTab,
 };

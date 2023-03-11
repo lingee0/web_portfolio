@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../style';
 import profile from '../assets/profile_pic.jpg';
-import { YoutubeEmbed } from '../components';
+import { YoutubeEmbed, SkillsTab } from '../components';
 
 const AboutMe = () => (
   <section id="aboutMe" className="mt-20">
@@ -22,7 +22,7 @@ const AboutMe = () => (
           <p className="font-poppins text-white flexCenter font-bold ss:text-[36px] text-[24px] mb-6">
             Get to know me
           </p>
-          <p className="font-poppins text-white flexCenter max-w-[600px] mb-16">
+          <p className="font-poppins text-white flexCenter max-w-[700px] ss:mb-16">
             I'm a hard-working University Student seeking experience. As a
             computing and software system student, I'm a bit of a tech geek, but
             I promise I'm not as boring as I sound. I always strive to be
@@ -36,8 +36,12 @@ const AboutMe = () => (
         </div>
       </div>
     </div>
+    <div className="flex items-center justify-center mt-10">
+      <SkillsTab />
+    </div>
+
     <div
-      className={`flex-1 flex md:flex-row flex-col ${styles.flexCenter} md:my-0 my-10 relative`}
+      className={`flex-1 flex md:flex-row flex-col ${styles.flexCenter} md:my-0 my-1 relative`}
     >
       <div className="mt-10 relative mr-10">
         <YoutubeEmbed videoId="jnOKC0YTpXQ" />
@@ -45,7 +49,7 @@ const AboutMe = () => (
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
-        <p className="font-poppins text-white flexCenter max-w-[600px] mb-16">
+        <p className="font-poppins text-white flexCenter max-w-[600px] ss:mb-16">
           Video games are more than just entertainment for me - it's my passion.
           I love diving into immersive worlds, discovering new strategies, and
           competing with others online. Check out the "Projects" page to see how
@@ -54,7 +58,7 @@ const AboutMe = () => (
       </div>
     </div>
     <div
-      className={`flex-1 flex md:flex-row flex-col ${styles.flexCenter} md:my-0 my-10 relative`}
+      className={`flex-1 flex md:flex-row flex-col ${styles.flexCenter} md:my-0 my-1 relative`}
     >
       <div className="mt-10 relative mr-10">
         <YoutubeEmbed videoId="pj9x-IuT8mk" />

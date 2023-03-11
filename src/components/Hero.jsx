@@ -36,7 +36,7 @@ const Hero = () => {
         <div className="flex-row justify-between items-center w-full">
           <div>
             <span
-              className="mt-12 flex-1 font-poppins font-semibold ss:text-[72px] text-[48px] text-white"
+              className="mt-12 flex-1 font-source_code_pro font-bold ss:text-[72px] text-[48px] text-white"
               ref={el}
             ></span>
           </div>

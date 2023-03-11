@@ -11,6 +11,7 @@ module.exports = {
         dimBlue: 'rgba(9, 151, 124, 0.1)',
       },
       fontFamily: {
+        source_code_pro: ['Source Code Pro', 'monospace'],
         poppins: ['Poppins', 'sans-serif'],
       },
     },
