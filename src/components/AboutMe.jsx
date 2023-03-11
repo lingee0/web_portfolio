@@ -40,7 +40,7 @@ const AboutMe = () => (
       <SkillsTab />
     </div>
 
-    {/* <div
+    <div
       className={`flex-1 flex md:flex-row flex-col ${styles.flexCenter} md:my-0 my-1 relative`}
     >
       <div className="mt-10 relative mr-10">
@@ -74,7 +74,7 @@ const AboutMe = () => (
           work.
         </p>
       </div>
-    </div> */}
+    </div>
   </section>
 );
 
