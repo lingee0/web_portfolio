@@ -6,9 +6,9 @@ import helpbot1 from '../assets/HelpBot-1.png';
 import shadowPirate from '../assets/shadow_pirate.png';
 
 const Projects = () => (
-  <section id="projects" className="mt-10">
+  <section id="projects" className="mt-10 mb-20">
     <Stats />
-    <h1 className="font-poppins text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] px-6 ss:mb-20 mb-5 ss:ml-0 ml-5">
+    <h1 className="font-poppins text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] px-6 ss:mb-10 mb-5 ss:ml-0 ml-5">
       My works
     </h1>
     <div className="relative">

@@ -3,7 +3,7 @@ import styles from '../style';
 import CountUp from 'react-countup';
 
 const Stats = () => (
-  <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20`}>
+  <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-10`}>
     {stats.map((stat) => (
       <div
         key={stat.id}

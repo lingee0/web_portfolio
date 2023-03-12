@@ -15,7 +15,7 @@ const Experiences = () => (
       Hover over the images to see more details
     </h2>
     <h2 className="ss:hidden font-poppins text-white flexCenter text-white font-bold ss:text-[24px] text-[12px] px-6 ss:mt-10 mt-5 ml-10">
-      Click the images to see more details
+      Click on the images to see more details
     </h2>
     <div className="relative">
       <div

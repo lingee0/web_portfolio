@@ -27,7 +27,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex md:flex-row flex-col ${styles.paddingY}`}
+      className={`flex md:flex-row flex-col ${styles.paddingY} mb-20`}
     >
       <meta
         name="description"
@@ -36,10 +36,10 @@ const Hero = () => {
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
-        <div className="flex-row justify-between items-center w-full">
+        <div className="flex-row justify-between items-center w-full mt-10">
           <div>
             <span
-              className="mt-12 flex-1 font-source_code_pro font-bold ss:text-[72px] text-[48px] text-white"
+              className="mt-12 flex-1 font-source_code_pro font-bold ss:text-[50px] text-[26px] text-white"
               ref={el}
             ></span>
           </div>
@@ -57,11 +57,13 @@ const Hero = () => {
               });
             }}
           >
-            <p className="py-6 flex-1 font-poppins font-semibold ss:text-[72px] text-[48px] text-gradient">
+            <p className="mb-6 flex-1 font-poppins font-semibold ss:text-[72px] text-[48px] text-gradient">
               Linggar Nareswara Andaru
             </p>
           </CustomLink>
-          <p className="py-6 flex-1 font-poppins font-semibold ss:text-[32px] text-[22px] text-white">
+          <p className=" flex-1 font-poppins font-semibold ss:text-[26px] text-[14px] text-white">
+            I'm a student, software engineer, <br /> and web designer/developer.{' '}
+            <br /> <br />
             This is my website portfolio <br />
             Feel free to look around and <br />
             get to know more about me <br />
@@ -89,9 +91,7 @@ const Hero = () => {
           </div>
         </CustomLink>
       </div>
-      <div
-        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
-      >
+      <div className={`${styles.flexCenter} md:my-0 my-10 relative`}>
         <img
           src={meme3}
           alt="meme"
