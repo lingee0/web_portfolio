@@ -17,7 +17,10 @@ const Projects = () => (
       >
         <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
           <div className="flex-row justify-between items-center w-full">
-            <a href="https://github.com/konfucius1/SummerHack-Fitbeats">
+            <a
+              href="https://github.com/konfucius1/SummerHack-Fitbeats"
+              target="_blank"
+            >
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 group-active:transition-all"></div>
               <div className={`flex-1 flex ${styles.flexCenter} relative`}>
                 <img
@@ -97,7 +100,7 @@ const Projects = () => (
       >
         <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
           <div className="flex-row justify-between items-center w-full">
-            <a href="https://github.com/lingee0/shadow_pirate">
+            <a href="https://github.com/lingee0/shadow_pirate" target="_blank">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <div className={`flex-1 flex ${styles.flexCenter} relative`}>
                 <img
@@ -172,7 +175,7 @@ const Projects = () => (
       >
         <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
           <div className="flex-row justify-between items-center w-full">
-            <a href="https://github.com/lingee0/Discord-Bot">
+            <a href="https://github.com/lingee0/Discord-Bot" target="_blank">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <div className={`flex-1 flex ${styles.flexCenter} relative`}>
                 <img
