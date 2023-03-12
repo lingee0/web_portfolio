@@ -9,6 +9,7 @@ import Projects from './Projects';
 import Stats from './Stats';
 import YoutubeEmbed from './YoutubeEmbed';
 import SkillsTab from './SkillsTab';
+import HobbiesTab from './HobbiesTab';
 
 export {
   AboutMe,
@@ -22,4 +23,5 @@ export {
   Stats,
   YoutubeEmbed,
   SkillsTab,
+  HobbiesTab,
 };

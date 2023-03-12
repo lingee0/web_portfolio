@@ -44,9 +44,20 @@ const Hero = () => {
           <p className="flex-1 font-poppins font-semibold ss:text-[48px] text-[32px] text-white">
             My name is:
           </p>
-          <p className="py-6 flex-1 font-poppins font-semibold ss:text-[72px] text-[48px] text-gradient">
-            Linggar Nareswara <br /> Andaru
-          </p>
+          <CustomLink
+            to={`${'aboutMe'}`}
+            onClick={() => {
+              window.scroll({
+                top: 0,
+                left: 0,
+                behavior: 'smooth',
+              });
+            }}
+          >
+            <p className="py-6 flex-1 font-poppins font-semibold ss:text-[72px] text-[48px] text-gradient">
+              Linggar Nareswara Andaru
+            </p>
+          </CustomLink>
           <p className="py-6 flex-1 font-poppins font-semibold ss:text-[32px] text-[22px] text-white">
             This is my website portfolio <br />
             Feel free to look around and <br />

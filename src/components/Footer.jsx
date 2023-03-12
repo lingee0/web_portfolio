@@ -31,7 +31,9 @@ const Footer = () => (
                     key={Link.name}
                     className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}
                   >
-                    <a href={Link.link}>{Link.name}</a>
+                    <a href={Link.link} target="_blank">
+                      {Link.name}
+                    </a>
                   </li>
                 ))}
               </ul>

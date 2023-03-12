@@ -17,16 +17,16 @@ import {
 
 export const navLinks = [
   {
+    id: 'aboutMe',
+    title: 'About Me',
+  },
+  {
     id: 'projects',
     title: 'Projects',
   },
   {
     id: 'experiences',
     title: 'Experiences',
-  },
-  {
-    id: 'aboutMe',
-    title: 'About Me',
   },
   {
     id: 'contactMe',
@@ -94,7 +94,7 @@ export const stats = [
   {
     id: 'stats-2',
     title: 'Total Projects',
-    value: '2',
+    value: '3',
   },
 ];
 

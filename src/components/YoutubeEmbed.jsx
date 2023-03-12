@@ -17,7 +17,8 @@ class YoutubeEmbed extends Component {
   render() {
     const { videoId } = this.props;
     const opts = {
-      width: '500',
+      height: '200',
+      width: '350',
       playerVars: {
         host: 'https://www.youtube.com',
         autoplay: 0,

@@ -8,15 +8,15 @@ import practera from '../assets/practera_icon.png';
 import lombok from '../assets/lombok_volunteer.jpg';
 
 const Experiences = () => (
-  <section id="projects" className="py-6">
-    <h1 className="font-poppins text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] px-6">
+  <section id="projects" className="py-6 mt-10">
+    <h1 className="font-poppins text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] px-6 mt-10 ml-10">
       My past experiences
     </h1>
     <div className="relative">
       <div
-        className={`flex md:flex-row flex-col justify-between ${styles.paddingY} md:${styles.paddingX}`}
+        className={`flex md:flex-row flex-col justify-between ${styles.paddingY} md:${styles.paddingX} ml-10 mr-10`}
       >
-        <div>
+        <div className="mb-10">
           <div className="flex-row justify-between items-center w-full group relative overflow-hidden border-2 border-white/50 rounded-xl">
             <a href="https://www.instagram.com/singpinkconcert/">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -99,9 +99,9 @@ const Experiences = () => (
         </div>
       </div>
       <div
-        className={`flex md:flex-row flex-col justify-between ${styles.paddingY} md:${styles.paddingX}`}
+        className={`flex md:flex-row flex-col justify-between ${styles.paddingY} md:${styles.paddingX} ml-10 mr-10`}
       >
-        <div>
+        <div className="mb-10">
           <div className="flex-row justify-between items-center w-full group relative overflow-hidden border-2 border-white/50 rounded-xl">
             <a href="https://www.linkedin.com/posts/linggar-andaru-591a331b6_practera-activity-6850982023205576704-amD0?utm_source=share&utm_medium=member_desktop">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -165,7 +165,7 @@ const Experiences = () => (
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-3xl font-bold text-white">
-                  Helping Lombok Earthquake's Victim
+                  Helping Lombok Earthquake's Victims
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50 bg-discount-gradient rounded-[10px]">
