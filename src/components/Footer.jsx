@@ -12,7 +12,7 @@ const Footer = () => (
           className="ss:w-[200px] w-[140px] object-contain"
         />
         <p
-          className={`${styles.paragraph} mt-4 max-w-[260px] ss:text-[14px] text-[10px]`}
+          className={`${styles.paragraph} mt-4 max-w-[260px] ss:text-[14px] text-[9px]`}
         >
           Designed and Developed by <br /> Linggar Nareswara Andaru
         </p>
@@ -23,13 +23,13 @@ const Footer = () => (
             key={footerLink.key}
             className="flex flex-col ss:my-0 my-4 min-w-[150px]"
           >
-            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+            <h4 className="font-source_code_pro font-medium text-[18px] leading-[27px] text-white">
               {footerLink.title}
               <ul>
                 {footerLink.links.map((Link, index) => (
                   <li
                     key={Link.name}
-                    className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}
+                    className={`font-source_code_pro font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}
                   >
                     <a href={Link.link} target="_blank">
                       {Link.name}

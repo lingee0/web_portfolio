@@ -19,10 +19,10 @@ const AboutMe = () => (
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex-1 lg:bg-gray-gradient mt-10">
-          <p className="font-poppins text-white flexCenter font-bold ss:text-[36px] text-[24px] mb-6">
+          <p className="font-source_code_pro text-white flexCenter font-bold ss:text-[36px] text-[24px] mb-6">
             Get to know me
           </p>
-          <p className="font-poppins text-white flexCenter max-w-[700px] ss:mb-16">
+          <p className="font-source_code_pro text-white flexCenter max-w-[700px] ss:mb-16 leading-6">
             I'm a hard-working University Student seeking experience. As a
             computing and software system student, I'm a bit of a tech geek, but
             I promise I'm not as boring as I sound. <br /> <br />
@@ -40,47 +40,12 @@ const AboutMe = () => (
     <div className="flex items-center justify-center mt-5">
       <SkillsTab />
     </div>
-    <p className="font-poppins text-white flexCenter font-bold ss:text-[36px] text-[24px] mt-20 mb-5 ss:ml-0 ml-6">
+    <p className="font-source_code_pro text-white flexCenter font-bold ss:text-[36px] text-[24px] mt-20 mb-5 ss:ml-0 ml-6">
       My Hobbies
     </p>
     <div>
       <HobbiesTab />
     </div>
-    {/* <div
-      className={`flex-1 flex md:flex-row flex-col ${styles.flexCenter} md:my-0 my-1 relative`}
-    >
-      <div className="mt-10 relative mr-10">
-        <YoutubeEmbed videoId="jnOKC0YTpXQ" />
-      </div>
-      <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
-      >
-        <p className="font-poppins text-white flexCenter max-w-[600px] ss:mb-16">
-          Video games are more than just entertainment for me - it's my passion.
-          I love diving into immersive worlds, discovering new strategies, and
-          competing with others online. Check out the "Projects" page to see how
-          my love for gaming influence my work.
-        </p>
-      </div>
-    </div>
-    <div
-      className={`flex-1 flex md:flex-row flex-col ${styles.flexCenter} md:my-0 my-1 relative`}
-    >
-      <div className="mt-10 relative mr-10">
-        <YoutubeEmbed videoId="pj9x-IuT8mk" />
-      </div>
-      <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
-      >
-        <p className="font-poppins text-white flexCenter max-w-[600px] mb-16">
-          Music has always been a huge part of my life. Whether I'm listening to
-          my favorite artists, exploring new genres, or playing an instrument,
-          I'm constantly inspired by the world of music. Check out the
-          "Projects" page to see how my passion for music influences my creative
-          work.
-        </p>
-      </div>
-    </div> */}
   </section>
 );
 

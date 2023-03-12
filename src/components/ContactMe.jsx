@@ -28,10 +28,10 @@ const ContactMe = () => {
     <section id="contactForm" className="mb-10">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="font-poppins text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] mt-10">
+          <h1 className="font-source_code_pro text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] mt-10 mb-10">
             Contact Me
           </h1>
-          <p className="mx-auto leading-relaxed ss:text-[20px] text-[12px] text-white">
+          <p className="mx-auto leading-relaxed ss:text-[20px] text-[12px] font-source_code_pro text-white">
             You can reach out to me by filling out the form below
           </p>
         </div>
@@ -84,7 +84,7 @@ const ContactMe = () => {
             </div>
           </div>
         </form>
-        <div className="flex flex-col w-full ss:text-[20px] text-[12px] text-white py-10">
+        <div className="flex flex-col w-full font-source_code_pro ss:text-[20px] text-[12px] text-white py-10">
           <div className="flex-1 text-center">
             <p>Or you can reach me at</p>
           </div>

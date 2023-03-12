@@ -30,7 +30,7 @@ const HobbiesTab = () => {
   });
 
   return (
-    <div className="sm:max-w-2xl sm:px-0 font-poppins">
+    <div className="sm:max-w-2xl sm:px-0">
       <Tab.Group>
         <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-1">
           {Object.keys(categories).map((category) => (
@@ -38,7 +38,7 @@ const HobbiesTab = () => {
               key={category}
               className={({ selected }) =>
                 classNames(
-                  'w-full rounded-lg py-2.5 text-[20px] font-poppins leading-5 text-blue-700',
+                  'w-full rounded-lg py-2.5 text-[20px] font-source_code_pro leading-5 text-blue-700',
                   'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
                   selected
                     ? 'bg-white shadow'
@@ -50,7 +50,7 @@ const HobbiesTab = () => {
             </Tab>
           ))}
         </Tab.List>
-        <Tab.Panels className="mb-20 mt-2 font-poppins">
+        <Tab.Panels className="mb-20 mt-2 font-source_code_pro">
           {Object.values(categories).map((posts, idx) => (
             <Tab.Panel
               key={idx}
@@ -59,7 +59,7 @@ const HobbiesTab = () => {
                 'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2'
               )}
             >
-              <ul className="font-poppins">
+              <ul className="font-source_code_pro">
                 {posts.map((post) => (
                   <li
                     key={post.id}

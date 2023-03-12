@@ -8,13 +8,13 @@ import { arrowUp } from '../assets';
 
 const Experiences = () => (
   <section id="projects" className="py-6 mt-10">
-    <h1 className="font-poppins text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] px-6 ss:mt-10 mt-5 ml-10">
+    <h1 className="font-source_code_pro text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] px-6 ss:mt-10 mt-5 ml-10">
       My past experiences
     </h1>
-    <h2 className="hidden lg:block font-poppins text-white flexCenter text-white ss:text-[16px] text-[12px] px-6 ml-10">
+    <h2 className="hidden lg:block font-source_code_pro text-white flexCenter text-white ss:text-[16px] text-[12px] px-6 ml-10">
       Hover over the images to see more details
     </h2>
-    <h2 className="ss:hidden font-poppins text-white flexCenter text-white font-bold ss:text-[24px] text-[12px] px-6 ss:mt-10 mt-5 ml-10">
+    <h2 className="ss:hidden font-source_code_pro text-white flexCenter text-white font-bold ss:text-[24px] text-[12px] px-6 ss:mt-10 mt-5 ml-10">
       Click on the images to see more details
     </h2>
     <div className="relative">
@@ -43,7 +43,7 @@ const Experiences = () => (
                   target="_blank"
                 >
                   <div className="flex flex-row items-center ">
-                    <span className="text-2xl font-bold text-white">
+                    <span className="text-2xl font-source_code_pro font-bold text-white">
                       Sing Pink
                     </span>
                     <img src={arrowUp} alt="arrow" className="w-[30px]" />
@@ -56,7 +56,7 @@ const Experiences = () => (
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-64 transition-all duration-700 z-50 cursor-pointer rounded-[10px]">
-                <span className="text-white font-semibold ss:text-[24px] text-[12px] ">
+                <span className="text-white font-source_code_pro font-semibold ss:text-[24px] text-[12px] ">
                   Organize a charity concert done in partnership with LovePink
                   Indonesia to raise awareness and funds for breast cancer
                   research
@@ -94,8 +94,8 @@ const Experiences = () => (
                   July 2017 - January 2018
                 </span>
               </div>
-              <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-20 transition-all duration-700 z-50 rounded-[10px]">
-                <span className="text-white font-semibold ss:text-[24px] text-[12px] ">
+              <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-36 transition-all duration-700 z-50 rounded-[10px]">
+                <span className="text-white font-source_code_pro font-semibold ss:text-[24px] text-[12px] ">
                   Organize a charity concert done in partnership with LovePink
                   Indonesia to raise awareness and funds for breast cancer
                   research
@@ -121,7 +121,7 @@ const Experiences = () => (
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="ss:text-2xl text-[12px] font-bold text-white">
+                <span className="ss:text-2xl text-[12px] font-source_code_pro font-bold text-white">
                   World Scholar's Cup
                 </span>
               </div>
@@ -131,7 +131,7 @@ const Experiences = () => (
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-44 transition-all duration-700 z-50 rounded-[10px]">
-                <span className="text-white font-semibold ss:text-[20px] text-[12px] ">
+                <span className="text-white font-source_code_pro font-semibold ss:text-[20px] text-[12px] ">
                   <ul className="list-disc">
                     <li>Top 20% Champion Scholars</li>
                     <li>Team Debate (Gold Medal)</li>
@@ -152,7 +152,7 @@ const Experiences = () => (
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-7 transition-all duration-700 z-50">
-                <span className="ss:text-3xl text-[12px] font-bold text-white">
+                <span className="ss:text-3xl text-[12px] font-source_code_pro font-bold text-white">
                   World Scholar's Cup
                 </span>
               </div>
@@ -162,7 +162,7 @@ const Experiences = () => (
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-24 transition-all duration-700 z-50 rounded-[10px]">
-                <span className="text-white font-semibold ss:text-[20px] text-[12px] ">
+                <span className="text-white font-source_code_pro font-semibold ss:text-[20px] text-[12px] ">
                   <ul className="list-disc">
                     <li>Top 20% Champion Scholars</li>
                     <li>Team Debate (Gold Medal)</li>
@@ -204,7 +204,7 @@ const Experiences = () => (
                   target="_blank"
                 >
                   <div className="flex flex-row items-center ">
-                    <span className="text-2xl font-bold text-white">
+                    <span className="text-2xl font-source_code_pro font-bold text-white">
                       Digital Industry Projects
                     </span>
                     <img src={arrowUp} alt="arrow" className="w-[30px]" />
@@ -216,8 +216,8 @@ const Experiences = () => (
                   Oct 2021
                 </span>
               </div>
-              <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-44 transition-all duration-700 z-50 rounded-[10px]">
-                <span className="text-white font-semibold ss:text-[16px] text-[10px] ">
+              <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-36 transition-all duration-700 z-50 rounded-[10px]">
+                <span className="text-white font-source_code_pro font-semibold ss:text-[16px] text-[10px] ">
                   <ul className="list-disc">
                     <li>
                       Engaged in market research and analysis for a company
@@ -244,7 +244,7 @@ const Experiences = () => (
                   target="_blank"
                 >
                   <div className="flex flex-row items-center ">
-                    <span className="text-[12px] font-bold text-white">
+                    <span className="text-[12px] font-source_code_pro font-bold text-white">
                       Digital Industry Projects
                     </span>
                     <img src={arrowUp} alt="arrow" className="w-[12px]" />
@@ -257,7 +257,7 @@ const Experiences = () => (
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-20 transition-all duration-700 z-50 rounded-[10px]">
-                <span className="text-white font-semibold text-[10px] ">
+                <span className="text-white font-source_code_pro font-semibold text-[9px] ">
                   <ul className="list-disc">
                     <li>
                       Engaged in market research and analysis for a company
@@ -285,13 +285,13 @@ const Experiences = () => (
               />
             </div>
             <div className="hidden lg:block md:px-14 px-10">
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-700 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-32 transition-all duration-700 z-50">
                 <span className="font-poppins font-semibold text-gradient">
                   Volunteer
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-2xl font-bold text-white">
+                <span className="text-2xl font-source_code_pro font-bold text-white">
                   Helping Lombok Earthquake's Victims
                 </span>
               </div>
@@ -301,7 +301,7 @@ const Experiences = () => (
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-52 transition-all duration-700 z-50 rounded-[10px]">
-                <span className="text-white font-semibold ss:text-[20px] text-[12px] ">
+                <span className="text-white font-source_code_pro font-semibold ss:text-[20px] text-[12px] ">
                   <ul className="list-disc">
                     <li>Help locals to clean rubbles and re-build houses</li>
                     <li>Give out lessons to children in child shelter</li>
@@ -310,13 +310,13 @@ const Experiences = () => (
               </div>
             </div>
             <div className="ss:hidden md:px-14 px-10">
-              <div className="absolute -bottom-full left-12 group-hover:bottom-12 transition-all duration-700 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-20 transition-all duration-700 z-50">
                 <span className="font-poppins font-semibold text-gradient ss:text-[16px] text-[12px]">
                   Volunteer
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-7 transition-all duration-700 z-50">
-                <span className="ss:text-3xl text-[12px] font-bold text-white">
+                <span className="ss:text-3xl text-[12px] font-source_code_pro font-bold text-white">
                   Helping Lombok Earthquake's Victims
                 </span>
               </div>
@@ -325,8 +325,8 @@ const Experiences = () => (
                   Oct 2018
                 </span>
               </div>
-              <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-24 transition-all duration-700 z-50 rounded-[10px]">
-                <span className="text-white font-semibold ss:text-[20px] text-[12px] ">
+              <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-28 transition-all duration-700 z-50 rounded-[10px]">
+                <span className="text-white font-source_code_pro font-semibold ss:text-[20px] text-[12px] ">
                   <ul className="list-disc">
                     <li>Help locals to clean rubbles and re-build houses</li>
                     <li>Give out lessons to children in child shelter</li>

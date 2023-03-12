@@ -25,12 +25,12 @@ const Navbar = () => {
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         <li
-          className={`font-poppins font-normal cursor-pointer text-[16px] mr-10`}
+          className={`font-source_code_pro font-normal cursor-pointer text-[16px] mr-10`}
         ></li>
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+            className={`font-source_code_pro font-normal cursor-pointer text-[16px] ${
               index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
             } text-white hover:text-secondary active:text-blue-500`}
           >
@@ -49,7 +49,7 @@ const Navbar = () => {
           </li>
         ))}
         <li
-          className={`font-poppins font-normal cursor-pointer text-[16px] text-white ml-10`}
+          className={`font-source_code_pro font-normal cursor-pointer text-[16px] text-white ml-10`}
         >
           <a href={resume} target="_blank">
             <button className="bg-green-500 hover:bg-blue-700 text-black hover:text-white font-semibold py-2 px-4 rounded-full">
@@ -76,7 +76,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-normal cursor-pointer text-[16px] ${
+                className={`font-source_code_pro cursor-pointer text-[16px] ${
                   index === navLinks.length - 1 ? 'mb-0' : 'mb-4'
                 } text-white active:text-blue-500`}
               >
@@ -95,7 +95,7 @@ const Navbar = () => {
               </li>
             ))}
             <li
-              className={`font-poppins font-normal cursor-pointer text-[16px] text-white mt-4`}
+              className={`font-source_code_pro font-normal cursor-pointer text-[16px] text-white mt-4`}
             >
               <a href={resume} target="_blank">
                 <button className="bg-green-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">

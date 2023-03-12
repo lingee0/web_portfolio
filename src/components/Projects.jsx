@@ -8,7 +8,7 @@ import shadowPirate from '../assets/shadow_pirate.png';
 const Projects = () => (
   <section id="projects" className="mt-10 mb-20">
     <Stats />
-    <h1 className="font-poppins text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] px-6 ss:mb-10 mb-5 ss:ml-0 ml-5">
+    <h1 className="font-source_code_pro text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] px-6 ss:mb-10 mb-5 ss:ml-0 ml-5">
       My works
     </h1>
     <div className="relative">
@@ -36,7 +36,7 @@ const Projects = () => (
                   </span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                  <span className="text-3xl font-bold text-white">
+                  <span className="text-3xl font-source_code_pro font-bold text-white">
                     Fitbeats
                   </span>
                 </div>
@@ -68,7 +68,7 @@ const Projects = () => (
           </div>
         </div>
         <div className="flex-1 justify-between align-middle max-w-[800px]">
-          <p className="text-white font-semibold ss:text-[16px] text-[10px] ml-10 py-6 ss:mr-0 mr-10">
+          <p className="text-white font-source_code_pro font-semibold ss:text-[16px] text-[10px] ml-10 py-6 ss:mr-0 mr-10">
             A Website Application that utilizes Spotify API to create tailored
             playlists for users to be played during their workout sessions. The
             playlists are based on users' current mood, workout duration, and
@@ -116,7 +116,7 @@ const Projects = () => (
                   </span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                  <span className="text-3xl font-bold text-white">
+                  <span className="text-3xl font-source_code_pro font-bold text-white">
                     Shadow Pirate
                   </span>
                 </div>
@@ -150,7 +150,7 @@ const Projects = () => (
           </div>
         </div>
         <div className="flex-1 justify-between align-middle max-w-[800px]">
-          <p className="text-white font-semibold ss:text-[16px] text-[10px] ml-10 py-6 ss:mr-0 mr-10">
+          <p className="text-white font-source_code_pro font-semibold ss:text-[16px] text-[10px] ml-10 py-6 ss:mr-0 mr-10">
             A simple video game with two levels where players need to go through
             stationary obstacles and enemies that can shoot projectiles. Players
             need to reach the goal of each level while staying alive.
@@ -191,7 +191,7 @@ const Projects = () => (
                   </span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                  <span className="text-3xl font-bold text-white">
+                  <span className="text-3xl font-source_code_pro font-bold text-white">
                     Help Bot
                   </span>
                 </div>
@@ -223,7 +223,7 @@ const Projects = () => (
           </div>
         </div>
         <div className="flex-1 justify-between align-middle max-w-[800px]">
-          <p className="text-white font-semibold ss:text-[16px] text-[10px] ml-10 py-6 ss:mr-0 mr-10">
+          <p className="text-white font-source_code_pro font-semibold ss:text-[16px] text-[10px] ml-10 py-6 ss:mr-0 mr-10">
             Help Bot is the ultimate companion for your Discord server! With its
             clever and humorous responses, Help Bot can help you and your
             friends stay engaged and entertained during your conversations. It

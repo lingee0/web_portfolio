@@ -44,7 +44,7 @@ const Hero = () => {
             ></span>
           </div>
 
-          <p className="flex-1 font-poppins font-semibold ss:text-[48px] text-[32px] text-white">
+          <p className="flex-1 font-source_code_pro font-semibold ss:text-[48px] text-[32px] text-white">
             My name is:
           </p>
           <CustomLink
@@ -61,13 +61,18 @@ const Hero = () => {
               Linggar Nareswara Andaru
             </p>
           </CustomLink>
-          <p className=" flex-1 font-poppins font-semibold ss:text-[26px] text-[14px] text-white">
-            I'm a student, software engineer, <br /> and web designer/developer.{' '}
-            <br /> <br />
-            This is my website portfolio <br />
-            Feel free to look around and <br />
-            get to know more about me <br />
-          </p>
+          <span>
+            <p className="flex-1 font-source_code_pro font-semibold ss:text-[26px] text-[14px] text-white">
+              I'm a student, software engineer, <br /> and web
+              designer/developer. <br />
+            </p>
+            <p className="flex-1 font-source_code_pro font-semibold ss:text-[26px] text-[14px] text-white">
+              <br />
+              This is my website portfolio <br />
+              Feel free to look around and <br />
+              get to know more about me <br />
+            </p>
+          </span>
         </div>
         <CustomLink
           to={`${'contactMe'}`}
@@ -85,18 +90,23 @@ const Hero = () => {
               alt="textBuble"
               className="ss:h-[32px] h-[24px] mr-4"
             />
-            <span className="text-white font-semibold ss:text-[25px] text-[14px]">
+            <span className="text-white font-semibold font-poppins ss:text-[25px] text-[14px]">
               Do not hesitate to contact me
             </span>
           </div>
         </CustomLink>
       </div>
-      <div className={`${styles.flexCenter} md:my-0 my-10 relative`}>
+      <div
+        className={`flex flex-col ${styles.flexCenter} md:my-0 my-10 relative`}
+      >
         <img
           src={meme3}
           alt="meme"
           className="ss:w-[80%] w-[60%] mr -10 relative z-[5]"
         />
+        <a href="https://www.youtube.com/watch?v=5cNF8mTSRzM" target="_blank">
+          <p className="text-white text-[10px]">[Meme Reference]</p>
+        </a>
       </div>
     </section>
   );
