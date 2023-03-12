@@ -30,6 +30,10 @@ const Hero = () => {
       id="home"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
     >
+      <meta
+        name="description"
+        content="This website is Linggar's personal web portfolio where people can see his previous works and experiences. It can also be used to know him as a person"
+      ></meta>
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >

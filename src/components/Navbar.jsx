@@ -57,7 +57,7 @@ const Navbar = () => {
           className={`font-poppins font-normal cursor-pointer text-[16px] text-white ml-10`}
         >
           <a href={resume} target="_blank">
-            <button className="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+            <button className="bg-green-500 hover:bg-blue-700 text-black hover:text-white font-semibold py-2 px-4 rounded-full">
               Resume
             </button>
           </a>
