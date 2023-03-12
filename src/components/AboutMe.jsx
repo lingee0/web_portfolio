@@ -6,7 +6,7 @@ import { SkillsTab, HobbiesTab } from '../components';
 const AboutMe = () => (
   <section id="aboutMe" className="mt-20">
     <div
-      className={`flex-1 flex md:flex-row flex-col ${styles.flexCenter} md:my-0 my-10 relative`}
+      className={`flex-1 flex md:flex-row flex-col ${styles.flexCenter} xl:px-0 sm:px-16 px-6 md:my-0 my-10 relative`}
     >
       <div className="mr-10">
         <img
@@ -37,10 +37,10 @@ const AboutMe = () => (
         </div>
       </div>
     </div>
-    <div className="flex items-center justify-center mt-5">
+    <div className="flex items-center justify-center mt-5 xl:px-0 sm:px-16 px-6">
       <SkillsTab />
     </div>
-    <p className="font-source_code_pro text-white flexCenter font-bold ss:text-[36px] text-[24px] mt-20 mb-5 ss:ml-0 ml-6">
+    <p className="font-source_code_pro text-white flexCenter font-bold ss:text-[36px] text-[24px] mt-20 mb-5 ss:ml-0 ml-6 xl:px-0 sm:px-16 px-6">
       My Hobbies
     </p>
     <div>

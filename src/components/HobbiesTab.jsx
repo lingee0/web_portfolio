@@ -30,7 +30,7 @@ const HobbiesTab = () => {
   });
 
   return (
-    <div className="sm:max-w-2xl sm:px-0">
+    <div className="sm:max-w-2xl sm:px-0 xl:px-0 sm:px-16 px-6">
       <Tab.Group>
         <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-1">
           {Object.keys(categories).map((category) => (

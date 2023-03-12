@@ -25,7 +25,7 @@ const ContactMe = () => {
     e.target.reset();
   };
   return (
-    <section id="contactForm" className="mb-10">
+    <section id="contactForm" className="mb-10 xl:px-0 sm:px-16 px-6">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
           <h1 className="font-source_code_pro text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] mt-10 mb-10">

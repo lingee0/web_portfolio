@@ -6,7 +6,7 @@ import helpbot1 from '../assets/HelpBot-1.png';
 import shadowPirate from '../assets/shadow_pirate.png';
 
 const Projects = () => (
-  <section id="projects" className="mt-10 mb-20">
+  <section id="projects" className="mt-10 mb-20 xl:px-0 sm:px-16 px-6">
     <Stats />
     <h1 className="font-source_code_pro text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] px-6 ss:mb-10 mb-5 ss:ml-0 ml-5">
       My works
@@ -57,7 +57,7 @@ const Projects = () => (
               </span>
             </div>
             <div className="flex">
-              <span className="text-xl font-bold text-white">Fitbeats</span>
+              <span className="text-l font-bold text-white">Fitbeats</span>
               <img src={arrowUp} alt="arrow" />
             </div>
             <div className="bg-green-gradient cursor-pointer rounded-[10px] w-[57px]">
@@ -137,9 +137,7 @@ const Projects = () => (
               </span>
             </div>
             <div className="flex">
-              <span className="text-xl font-bold text-white">
-                Shadow Pirate
-              </span>
+              <span className="text-l font-bold text-white">Shadow Pirate</span>
               <img src={arrowUp} alt="arrow" />
             </div>
             <div className="bg-red-gradient cursor-pointer rounded-[10px] w-[57px]">
@@ -212,7 +210,7 @@ const Projects = () => (
               </span>
             </div>
             <div className="flex">
-              <span className="text-xl font-bold text-white">Help Bot</span>
+              <span className="text-l font-bold text-white">Help Bot</span>
               <img src={arrowUp} alt="arrow" />
             </div>
             <div className="bg-red-gradient cursor-pointer rounded-[10px] w-[57px]">

@@ -7,19 +7,19 @@ import lombok from '../assets/lombok_volunteer.jpg';
 import { arrowUp } from '../assets';
 
 const Experiences = () => (
-  <section id="projects" className="py-6 mt-10">
-    <h1 className="font-source_code_pro text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] px-6 ss:mt-10 mt-5 ml-10">
+  <section id="projects" className="py-6 mt-10 xl:px-0 sm:px-16 px-6">
+    <h1 className="font-source_code_pro text-white flexCenter text-white font-bold ss:text-[36px] text-[20px] px-6 ss:mt-10 mt-5 ml-3 mr-3">
       My past experiences
     </h1>
-    <h2 className="hidden lg:block font-source_code_pro text-white flexCenter text-white ss:text-[16px] text-[12px] px-6 ml-10">
+    <h2 className="hidden lg:block font-source_code_pro text-white flexCenter text-white ss:text-[16px] text-[12px] px-6 ml-3 mr-3">
       Hover over the images to see more details
     </h2>
-    <h2 className="ss:hidden font-source_code_pro text-white flexCenter text-white font-bold ss:text-[24px] text-[12px] px-6 ss:mt-10 mt-5 ml-10">
+    <h2 className="ss:hidden font-source_code_pro text-white flexCenter text-white font-bold ss:text-[24px] text-[10px] px-6 ss:mt-10 mt-5 ml-3 mr-3">
       Click on the images to see more details
     </h2>
     <div className="relative">
       <div
-        className={`flex md:flex-row flex-col justify-between ${styles.paddingY} md:${styles.paddingX} ml-10 mr-10`}
+        className={`flex md:flex-row flex-col justify-between ${styles.paddingY} md:${styles.paddingX} ml-3 mr-3`}
       >
         <div className="mb-10">
           <div className="flex-row justify-between items-center w-full group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -180,7 +180,7 @@ const Experiences = () => (
         </div>
       </div>
       <div
-        className={`flex md:flex-row flex-col justify-between ${styles.paddingY} md:${styles.paddingX} ml-10 mr-10`}
+        className={`flex md:flex-row flex-col justify-between ${styles.paddingY} md:${styles.paddingX} ml-3 mr-3`}
       >
         <div className="mb-10">
           <div className="flex-row justify-between items-center w-full group relative overflow-hidden border-2 border-white/50 rounded-xl">

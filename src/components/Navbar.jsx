@@ -8,7 +8,7 @@ import resume from '../assets/Linggar_Resume.pdf';
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="bg-primary w-full flex py-6 ss:ml-0 ml-6 justify-between items-center navbar">
+    <nav className="bg-primary w-full flex py-6 xl:px-0 sm:px-16 px-6 ss:ml-0 ml-6 justify-between items-center navbar">
       <CustomLink
         to="/"
         onClick={() => {
