@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../style';
 import profile from '../assets/profile_pic.jpg';
-import { YoutubeEmbed, SkillsTab, HobbiesTab } from '../components';
+import { SkillsTab, HobbiesTab } from '../components';
 
 const AboutMe = () => (
   <section id="aboutMe" className="mt-20">

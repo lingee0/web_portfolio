@@ -2,7 +2,6 @@ import React from 'react';
 import { Tab } from '@headlessui/react';
 import { useState } from 'react';
 import { YoutubeEmbed } from '../components';
-import styles from '../style';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');

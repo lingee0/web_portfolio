@@ -3,14 +3,12 @@ import { Route, Routes } from 'react-router-dom';
 
 import {
   AboutMe,
-  Button,
   ContactMe,
   Experiences,
   Footer,
   Hero,
   Navbar,
   Projects,
-  Stats,
 } from './components';
 
 const App = () => (

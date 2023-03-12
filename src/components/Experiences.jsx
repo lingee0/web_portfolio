@@ -1,7 +1,5 @@
 import React from 'react';
 import styles from '../style';
-import { BsArrowUpRight } from 'react-icons/bs';
-import { motion } from 'framer-motion';
 import singPink from '../assets/singpinkconcert.jpg';
 import wsc from '../assets/wsc.jpg';
 import practera from '../assets/practera_icon.png';

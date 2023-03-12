@@ -1,13 +1,8 @@
 import { useState } from 'react';
-
 import { logo, menu } from '../assets';
-// import menu from '../assets/menu.jpg';
 import close from '../assets/close.svg';
-
 import { navLinks } from '../constants';
-
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
-
 import resume from '../assets/Linggar_Resume.pdf';
 
 const Navbar = () => {

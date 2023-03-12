@@ -2,7 +2,6 @@ import Typed from 'typed.js';
 import { useEffect, useRef } from 'react';
 import styles from '../style';
 import textBuble from '../assets/textbuble.png';
-import meme1 from '../assets/meme1.png';
 import meme3 from '../assets/meme3.jpg';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
