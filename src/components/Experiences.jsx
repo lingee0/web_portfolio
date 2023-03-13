@@ -8,13 +8,13 @@ import { arrowUp } from '../assets';
 
 const Experiences = () => (
   <section id="projects" className="py-6 mt-10 xl:px-0 sm:px-16 px-6">
-    <h1 className="font-source_code_pro text-white flexCenter text-white font-bold ss:text-[36px] text-[20px] px-6 ss:mt-10 mt-5 ml-3 mr-3">
+    <h1 className="font-source_code_pro text-white flexCenter text-white font-bold ss:text-[36px] text-[20px] ss:mt-10 mt-5">
       My past experiences
     </h1>
-    <h2 className="hidden lg:block font-source_code_pro text-white flexCenter text-white ss:text-[16px] text-[12px] px-6 ml-3 mr-3">
+    <h2 className="hidden lg:block font-source_code_pro text-white flexCenter text-white ss:text-[16px] text-[12px]">
       Hover over the images to see more details
     </h2>
-    <h2 className="ss:hidden font-source_code_pro text-white flexCenter text-white font-bold ss:text-[24px] text-[10px] px-6 ss:mt-10 mt-5 ml-3 mr-3">
+    <h2 className="ss:hidden font-source_code_pro text-white flexCenter text-white font-bold ss:text-[24px] text-[10px] ss:mt-10 mt-5">
       Click on the images to see more details
     </h2>
     <div className="relative">
@@ -94,8 +94,8 @@ const Experiences = () => (
                   July 2017 - January 2018
                 </span>
               </div>
-              <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-36 transition-all duration-700 z-50 rounded-[10px]">
-                <span className="text-white font-source_code_pro font-semibold ss:text-[24px] text-[12px] ">
+              <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-24 transition-all duration-700 z-50 rounded-[10px]">
+                <span className="text-white font-source_code_pro font-semibold ss:text-[24px] text-[10px] ">
                   Organize a charity concert done in partnership with LovePink
                   Indonesia to raise awareness and funds for breast cancer
                   research
@@ -162,7 +162,7 @@ const Experiences = () => (
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-24 transition-all duration-700 z-50 rounded-[10px]">
-                <span className="text-white font-source_code_pro font-semibold ss:text-[20px] text-[10px] ">
+                <span className="text-white font-source_code_pro font-semibold ss:text-[20px] text-[9px] ">
                   <ul className="list-disc">
                     <li>Top 20% Champion Scholars</li>
                     <li>Team Debate (Gold Medal)</li>
@@ -233,7 +233,7 @@ const Experiences = () => (
               </div>
             </div>
             <div className="ss:hidden md:px-14 px-10">
-              <div className="absolute -bottom-full left-12 group-hover:bottom-12 transition-all duration-700 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-10 transition-all duration-700 z-50">
                 <span className="font-poppins font-semibold text-gradient ss:text-[16px] text-[12px]">
                   Market Research Project
                 </span>
@@ -256,8 +256,8 @@ const Experiences = () => (
                   Oct 2021
                 </span>
               </div>
-              <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-20 transition-all duration-700 z-50 rounded-[10px]">
-                <span className="text-white font-source_code_pro font-semibold text-[9px] ">
+              <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-16 transition-all duration-700 z-50 rounded-[10px]">
+                <span className="text-white font-source_code_pro font-semibold text-[8px] ">
                   <ul className="list-disc">
                     <li>
                       Engaged in market research and analysis for a company
@@ -310,23 +310,23 @@ const Experiences = () => (
               </div>
             </div>
             <div className="ss:hidden md:px-14 px-10">
-              <div className="absolute -bottom-full left-12 group-hover:bottom-20 transition-all duration-700 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-700 z-50">
                 <span className="font-poppins font-semibold text-gradient ss:text-[16px] text-[12px]">
                   Volunteer
                 </span>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-7 transition-all duration-700 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-6 transition-all duration-700 z-50">
                 <span className="ss:text-3xl text-[12px] font-source_code_pro font-bold text-white">
                   Helping Lombok Earthquake's Victims
                 </span>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-1 transition-all duration-700 z-50 bg-discount-gradient rounded-[10px]">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-0 transition-all duration-700 z-50 bg-discount-gradient rounded-[10px]">
                 <span className="text-white font-semibold ss:text-[12px] text-[10px] ml-2 mr-2">
                   Oct 2018
                 </span>
               </div>
-              <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-28 transition-all duration-700 z-50 rounded-[10px]">
-                <span className="text-white font-source_code_pro font-semibold ss:text-[20px] text-[12px] ">
+              <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-24 transition-all duration-700 z-50 rounded-[10px]">
+                <span className="text-white font-source_code_pro font-semibold ss:text-[20px] text-[10px] ">
                   <ul className="list-disc">
                     <li>Help locals to clean rubbles and re-build houses</li>
                     <li>Give out lessons to children in child shelter</li>
