@@ -162,7 +162,7 @@ const Experiences = () => (
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 right-12 group-hover:bottom-24 transition-all duration-700 z-50 rounded-[10px]">
-                <span className="text-white font-source_code_pro font-semibold ss:text-[20px] text-[12px] ">
+                <span className="text-white font-source_code_pro font-semibold ss:text-[20px] text-[10px] ">
                   <ul className="list-disc">
                     <li>Top 20% Champion Scholars</li>
                     <li>Team Debate (Gold Medal)</li>
