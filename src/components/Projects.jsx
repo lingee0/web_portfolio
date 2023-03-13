@@ -8,7 +8,7 @@ import shadowPirate from '../assets/shadow_pirate.png';
 const Projects = () => (
   <section id="projects" className="mt-10 mb-20 xl:px-0 sm:px-16 px-6">
     <Stats />
-    <h1 className="font-source_code_pro text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] px-6 ss:mb-10 mb-5 ss:ml-0 ml-5">
+    <h1 className="font-source_code_pro text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] ss:mb-10 mb-5 ss:ml-0 ml-5">
       My works
     </h1>
     <div className="relative">
