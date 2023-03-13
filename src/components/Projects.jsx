@@ -8,9 +8,13 @@ import shadowPirate from '../assets/shadow_pirate.png';
 const Projects = () => (
   <section id="projects" className="mt-10 mb-20 xl:px-0 sm:px-16 px-6">
     <Stats />
-    <h1 className="font-source_code_pro text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] ss:mb-10 mb-5 ss:ml-0 ml-5">
+    <h1 className="font-source_code_pro text-white flexCenter text-white font-bold ss:text-[36px] text-[24px] ss:ml-0 ml-5">
       My works
     </h1>
+    <h2 className="hidden lg:block font-source_code_pro text-white flexCenter text-white ss:text-[16px] text-[12px] ss:mb-10 mb-5">
+      Hover over the images to see more details || Click on the images to go to
+      the github repository
+    </h2>
     <div className="relative">
       <div
         className={`flex md:flex-row flex-col border-2 border-white/50 rounded-xl mb-10 ss:mr-0 mr-10 ss:ml-0 ml-10`}
